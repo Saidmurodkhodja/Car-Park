@@ -22,7 +22,7 @@ namespace Car_Park
         }   
         public void ShowInformation()
         {
-
+            // method prints info of Bus class to the console
             Console.WriteLine("Bus");
             Console.WriteLine("Engine Power: " + Engine.Power);
             Console.WriteLine("Engine Volume: " + Engine.Volume);
