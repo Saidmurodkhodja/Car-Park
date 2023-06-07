@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Car_Park
 {
-    internal class Passenger_Car
+    internal class PassengerCar
     {
         public Engine Engine { get; set; }
         public Chassis Chassis { get; set; }
         public Transmission Transmission { get; set; }
         public string UniqueField { get; set; }
 
-        public Passenger_Car(Engine engine, Chassis chassis, Transmission transmission, string uniqueField)
+        public PassengerCar(Engine engine, Chassis chassis, Transmission transmission, string uniqueField)
         {
             Engine = engine;
             Chassis = chassis;
